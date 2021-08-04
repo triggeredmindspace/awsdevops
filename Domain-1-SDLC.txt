@@ -1,0 +1,13 @@
+Software Development Lifecycle - 
+
+
+1) Continious Integration (CI) is the practice of merging all developers' working copies to a shared mainline several times a day
+    Developers push the code to a code repository often (GitHub / CodeCommit / Bitbucket / etc…)
+    A testing / build server checks the code as soon as it’s pushed (CodeBuild / Jenkins CI/ etc…)
+    The developer gets feedback about thetests and checks that have passed / failed
+2) Continious Delivery: Continuous delivery is a software development practice where code changes are automatically prepared for a release to production. 
+    It enables us to shift from a release every month to 3 times a day
+    Ability to deploy often using automation
+    May involve a manual step to “approve” a deployment
+    The deployment itself is still automated and repeated!
+3) Continuous Deployment: Full automation, every code change is deployed all the way to production. No manual intervention of approvals
